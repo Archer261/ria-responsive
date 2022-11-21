@@ -15,7 +15,7 @@
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "http://Archer261.github.io/ria-responsive"
+    "homepage": "https://Archer261.github.io/ria-responsive"
   },
   "scripts": {
     "start": "react-scripts start",
