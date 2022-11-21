@@ -320,6 +320,7 @@ body p {
     .mobile-logo-container {
         display: flex;
         justify-content: flex-start;
+        width: auto;
     }
 
     .mobile-logo-container img {

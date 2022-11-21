@@ -34,7 +34,7 @@ function Navigation() {
     const scrollPosition = useScrollPosition()
 
     return (
-        <div className='navbar w-full py-5'>
+        <div className='navbar w-full justify-self-center py-1'>
             <div className="navbar-start flex-1">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -73,7 +73,7 @@ function Navigation() {
             </div>
             <div className='mobile-logo-container'><Link to={`/`}><img id="logo" src={logo} /></Link></div>
             <div className="navbar-end flex-1 ml-5 pl-3">
-                <a className="btn bg-error w-10 sm:w-fit "><p>Book Appointment</p></a>
+                <a className="btn bg-error w-10 sm:w-fit " href="https://riastouchmassage.fullslate.com/"><p>Book Appointment</p></a>
             </div>
         </div>
     );

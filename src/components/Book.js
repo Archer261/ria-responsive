@@ -6,7 +6,7 @@ const Book = (props) => {
         <>
             <div>
                 <button>
-                    <img src={bookBtn} />
+                    <a href="https://riastouchmassage.fullslate.com/"><img src={bookBtn} /></a>
                 </button>
             </div>
         </>
