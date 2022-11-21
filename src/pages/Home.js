@@ -12,7 +12,7 @@ function Home() {
 
             <div class="grid grid-cols-3 grid-rows-3 gap-4 mx-10">
                 <div class="col-span-3 sm:col-span-2 row-span-full sm:row-span-1 ..."><Banner /></div>
-                <div class="col-span-3 sm:col-span-2 sm:row-span-..."><Directions /></div>
+                <div class="col-span-2..."><Directions /></div>
                 <div class="col-span-2 ..."><Info /></div>
 
                 {/* <div class="...">03</div> */}
