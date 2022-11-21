@@ -1,6 +1,5 @@
 
 import React from 'react'
-import phoneIco from '../assets/icons/phone.png'
 
 
 function Policy() {
