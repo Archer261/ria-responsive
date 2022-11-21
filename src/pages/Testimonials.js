@@ -17,7 +17,7 @@ function Testimonials({ }) {
 
     return (
         <>
-            <div class="grid grid-cols-5 gap-4">
+            <div class="grid grid-cols-5 gap-4 mb-40">
                 <div className='col-span-3 col-start-2'>
                     <div className='testimonial-slide'>
                         <Carousel

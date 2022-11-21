@@ -20,9 +20,9 @@ function Footer() {
                     <Link to={`/policy`}>Policy Rules</Link>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end socials-footer">
-                    <a><img src={ig} /></a>
-                    <a><img src={fb} /></a>
-                    <a><img src={lkdn} /></a>
+                    <a href="https://www.instagram.com/riastouchmassage/"><img src={ig} /></a>
+                    <a href="https://www.facebook.com/riastouchmassage"><img src={fb} /></a>
+                    <a href="https://www.linkedin.com/in/ria-schodowski-98397019/"><img src={lkdn} /></a>
                 </div>
             </footer>
 

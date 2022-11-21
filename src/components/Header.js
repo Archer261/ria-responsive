@@ -23,9 +23,9 @@ function Header() {
             <header className={classNames(scrollPosition > 0 ? "header-scroll" : " header-main")}>
                 <div className={classNames(scrollPosition > 0 ? "hidden" : " grid grid-cols-3 gap-4")}>
                     <div className='flex items-center justify-center socials'>
-                        <a><img src={ig} /></a>
-                        <a><img src={fb} /></a>
-                        <a><img src={lkdn} /></a>
+                        <a href="https://www.instagram.com/riastouchmassage/"><img src={ig} /></a>
+                        <a href="https://www.facebook.com/riastouchmassage"><img src={fb} /></a>
+                        <a href="https://www.linkedin.com/in/ria-schodowski-98397019/"><img src={lkdn} /></a>
                     </div>
                     <div className={classNames(scrollPosition > 0 ? 'logo-container-hide' : 'flex logo-container col-start-2 items-center')}><Link to={`/`}><img id="logo" src={logo} /></Link><div><h1>Massage Therapy</h1></div></div>
                     <PhoneNumber />
