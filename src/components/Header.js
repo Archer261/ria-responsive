@@ -21,7 +21,7 @@ function Header() {
     return (
         <>
             <header className={classNames(scrollPosition > 0 ? "header-scroll" : " header-main")}>
-                <div className='grid grid-cols-3 gap-4'>
+                <div className={classNames(scrollPosition > 0 ? "hidden" : " grid grid-cols-3 gap-4")}>
                     <div className='flex items-center justify-center socials'>
                         <a><img src={ig} /></a>
                         <a><img src={fb} /></a>

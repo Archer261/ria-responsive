@@ -60,6 +60,10 @@ function Navigation() {
                 {/* <Link to={`/`}><a className="btn btn-ghost normal-case text-xl w-1/2 h-1/2"><img className='object-contain w-auto h-1/2' src={logo} /></a></Link> */}
             </div>
 
+            <div className='block'>
+                <div className={classNames(scrollPosition > 0 ? 'flex justify-start pr-40' : 'logo-container-hide')}><Link to={`/`}><img id="logo" className="w-20 h-auto" src={logo} /></Link><div className='self-center'><h1 >Massage Therapy</h1></div></div>
+            </div>
+
             <div className="container flex w-fit mr-3">
 
 

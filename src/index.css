@@ -12,6 +12,7 @@ body {
     font-size: 18px;
     color: #5c3738;
     width: 100vw;
+    margin-right: 5px;
     overflow-x: hidden;
 }
 
@@ -269,6 +270,10 @@ body p {
     transform: scale(1.1);
 }
 
+.book-btn img:active {
+    transform: scale(0.7);
+}
+
 #phone {
     display: block;
     transition: transform 0.3s;
@@ -504,7 +509,7 @@ body p {
 /* ------------- Home Slider(Banner) -------------- */
 .slider-wrapper {
     position: relative;
-    height: 40vh;
+    height: 50vh;
     overflow: hidden;
 }
 
