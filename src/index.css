@@ -3,6 +3,7 @@
 
 html,
 body {
+    /* display: flex; */
     background: url('./assets/styles/riaDecal.png'), linear-gradient(to bottom, rgb(204, 221, 185), #FFF);
     background-size: contain;
     background-repeat: no-repeat;
@@ -10,6 +11,8 @@ body {
     font-family: 'Lobster Two', cursive;
     font-size: 18px;
     color: #5c3738;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 body p {
@@ -238,12 +241,12 @@ body p {
 
 .book-btn {
     display: none;
-    width: 200px;
+    width: 100px;
     height: auto;
     position: fixed;
     right: 50%;
-    margin-right: -400px;
-    margin-bottom: 80px;
+    margin-right: -170px;
+    margin-bottom: 130px;
     padding: 5px;
     z-index: 500;
     bottom: 0;
@@ -296,7 +299,7 @@ body p {
 
 /* Navigation Breakpoint */
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 480px) {
     .header-scroll>* {
         scale: (0.7);
     }
@@ -310,9 +313,15 @@ body p {
     }
 
     .mobile-logo-container {
-        display: block;
+        display: flex;
         justify-content: flex-start;
     }
+
+    .mobile-logo-container img {
+        width: 100px;
+        height: auto;
+    }
+
 
     .socials a {
         display: none;
@@ -650,5 +659,28 @@ body p {
 @media (max-width: 640px) {
     .slider-content .inner h1 {
         font-size: 32px;
+    }
+}
+
+/* .footer {
+    display: block;
+} */
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer p {
+        font-family: 'Lobster Two', cursive;
+        ;
+    }
+
+    .socials-footer a {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
