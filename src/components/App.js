@@ -19,7 +19,7 @@ function App() {
         <>
             <BrowserRouter>
                 <Header />
-                <div className="flex flex-col align-center">
+                <div className="flex justify-center">
                     {/* <AddNewBtn /> */}
                     <Routes>
                         <Route path="/" element={<Home />} />

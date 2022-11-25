@@ -25,24 +25,26 @@ function Banner({ }) {
 
     return (
         <>
-            <Slider className="slider-wrapper">
-                {slides.map((slide, index) => (
-                    <div
-                        key={index}
-                        className="slider-content"
-                        style={{ background: `url('${slide.image}') no-repeat center center` }}
-                    >
-                        <div className="inner">
-                            <h1>{slide.title}</h1>
-                            <p>{slide.description}</p>
-                            <button>{slide.button}</button>
-                        </div>
-                        <section>
+            <div className='container'>
+                <Slider className="slider-wrapper">
+                    {slides.map((slide, index) => (
+                        <div
+                            key={index}
+                            className="slider-content"
+                            style={{ background: `url('${slide.image}') no-repeat center center` }}
+                        >
+                            <div className="inner">
+                                <h1>{slide.title}</h1>
+                                <p>{slide.description}</p>
+                                <button>{slide.button}</button>
+                            </div>
+                            <section>
 
-                        </section>
-                    </div>
-                ))}
-            </Slider>
+                            </section>
+                        </div>
+                    ))}
+                </Slider>
+            </div>
         </>
     );
 }

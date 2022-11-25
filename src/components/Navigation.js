@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/riaLogo.png'
 import { Link } from 'react-router-dom'
 import NavBtn from './NavBtn'
+import MobileNavBtn from '../components/MobileNavBtn';
 import PhoneNumber from '../components/PhoneNumber';
 import useScrollPosition from '../hooks/useScrollPosition';
 
@@ -41,7 +42,7 @@ function Navigation() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Services</a></li>
+                        {/* <li><a>Services</a></li>
                         <li tabIndex={0}>
                             <a className="justify-between">
                                 Services
@@ -54,7 +55,12 @@ function Navigation() {
                         </li>
                         <Link to={`/products`}><li><button className="btn btn-accent m-2"><a>Products</a></button></li></Link>
                         <Link to={`/about`}><li><button className="btn btn-accent m-2"><a>About me</a></button></li></Link>
-                        <Link to={`/testimonials`}><li><button className="btn btn-accent m-2"><a>Testimonials</a></button></li></Link>
+                        <Link to={`/testimonials`}><li><button className="btn btn-accent m-2"><a>Testimonials</a></button></li></Link> */}
+                        {navData.map((ele) => (
+                            <MobileNavBtn navData={ele} />
+                        ))}
+
+
                     </ul>
                 </div>
                 {/* <Link to={`/`}><a className="btn btn-ghost normal-case text-xl w-1/2 h-1/2"><img className='object-contain w-auto h-1/2' src={logo} /></a></Link> */}
