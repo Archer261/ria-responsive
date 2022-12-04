@@ -78,7 +78,7 @@ function Navigation() {
                 ))}
             </div>
             <div className='mobile-logo-container'><Link to={`/`}><img id="logo" src={logo} /></Link></div>
-            <div className="navbar-end flex-1 ml-5 pl-3">
+            <div className="ml-5 pl-3">
                 <a className="btn bg-error w-10 sm:w-fit " href="https://riastouchmassage.fullslate.com/"><p>Book Appointment</p></a>
             </div>
         </div>

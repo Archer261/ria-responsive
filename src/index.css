@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Lobster Two', cursive;
-    font-size: 3vw;
+    font-size: 18px;
     color: #5c3738;
     width: 100vw;
     margin-right: 5px;
@@ -18,8 +18,8 @@ body {
 
 body p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
 }
-
 
 .header-scroll {
     position: fixed;
@@ -305,6 +305,10 @@ body p {
 /* Navigation Breakpoint */
 
 @media only screen and (max-width: 640px) {
+
+    body p {
+        font-size: 3vw;
+    }
 
     .header-scroll>* {
         scale: (0.7);
