@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Lobster Two', cursive;
-    font-size: 18px;
+    font-size: 3vw;
     color: #5c3738;
     width: 100vw;
     margin-right: 5px;
@@ -305,6 +305,42 @@ body p {
 /* Navigation Breakpoint */
 
 @media only screen and (max-width: 640px) {
+
+    .header-scroll>* {
+        scale: (0.7);
+    }
+
+    .navBox {
+        display: none;
+    }
+
+    .logo-container {
+        display: none;
+    }
+
+    .mobile-logo-container {
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+    }
+
+    .mobile-logo-container img {
+        width: 100px;
+        height: auto;
+    }
+
+
+    .socials a {
+        display: none;
+    }
+
+    #phone {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
     .header-scroll>* {
         scale: (0.7);
     }
@@ -363,16 +399,18 @@ body p {
 /* Info Card */
 
 #ria-photo {
-    width: 300px;
-    height: 400px;
+    display: flex;
+    max-width: 400px;
+    max-height: auto;
     margin: 6px;
     padding: 6px;
 }
 
 
 #location {
-    width: 50%;
-    height: auto;
+    display: flex;
+    max-width: 50%;
+    max-height: auto;
     margin-top: 6px;
     margin-right: 6px;
     margin-left: 6px;
@@ -509,6 +547,7 @@ body p {
 
 /* ------------- Home Slider(Banner) -------------- */
 .slider-wrapper {
+    display: flex;
     position: relative;
     border-radius: 15px;
     height: 50vh;
@@ -828,3 +867,8 @@ body p {
         fill: #6d4b4c;
     }
 }
+
+/* ---------- Hours -------------- */
+/* .hours-container p {
+    
+} */

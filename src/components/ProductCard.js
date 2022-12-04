@@ -6,7 +6,7 @@ function ProductCard({ rec }) {
             <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{rec.product}</h2>
-                <p>{rec.desc}</p>
+                <p className="h-10 overflow-hidden ... sm:">{rec.desc}</p>
                 <div className="card-actions justify-end">
                     <a href={rec.url}><button className="btn btn-primary">Open</button></a>
                 </div>
